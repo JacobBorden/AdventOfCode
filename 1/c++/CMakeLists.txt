@@ -15,6 +15,8 @@ FetchContent_Declare(
 	SOURCE_DIR ../dependencies/googletest
 	)
 
+FetchContent_MakeAvailable(googletest)
+
 file(GLOB Main "src/main.cpp")
 
 enable_testing()
