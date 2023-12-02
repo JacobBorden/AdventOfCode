@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(AdventCode)
+project(AdventCode1)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_THREAD_PREFER_PTHREAD ON)
