@@ -12,6 +12,7 @@ include(FetchContent)
 FetchContent_Declare(
 	googletest
 	GIT_REOPOSITORY https://github.com/google/googletest.git
+	SOURCE_DIR ../dependencies/googletest
 	)
 
 FetchContent_MakeAvailable(googletest)
