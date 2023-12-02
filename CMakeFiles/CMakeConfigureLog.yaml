@@ -1,0 +1,187 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 5.15.133.1-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      clang: error: unable to execute command: Executable "ld" doesn't exist!
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/clang 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /home/jacob/code/advent_of_code/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      clang++: error: unable to execute command: Executable "ld" doesn't exist!
+      clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/jacob/code/advent_of_code/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-NOe24X"
+      binary: "/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-NOe24X"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-NOe24X'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1f554/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1f554.dir/build.make CMakeFiles/cmTC_1f554.dir/build
+        gmake[1]: Entering directory '/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-NOe24X'
+        Building C object CMakeFiles/cmTC_1f554.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_1f554.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_1f554.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_1f554.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 17.0.5
+        Target: x86_64-suse-linux
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-suse-linux/13
+        Found candidate GCC installation: /usr/lib64/gcc/x86_64-suse-linux/13
+         (in-process)
+         "/usr/bin/clang-17.0.5" -cc1 -triple x86_64-suse-linux -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-NOe24X -resource-dir /usr/lib64/clang/17 -dependency-file CMakeFiles/cmTC_1f554.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_1f554.dir/CMakeCCompilerABI.c.o -sys-header-deps -canonical-system-headers -internal-isystem /usr/lib64/clang/17/include -internal-isystem /usr/local/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-NOe24X -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1f554.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.5 based upon LLVM 17.0.5 default target x86_64-suse-linux
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib64/clang/17/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking C executable cmTC_1f554
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f554.dir/link.txt --verbose=1
+        /usr/bin/clang  -v CMakeFiles/cmTC_1f554.dir/CMakeCCompilerABI.c.o -o cmTC_1f554 
+        clang version 17.0.5
+        Target: x86_64-suse-linux
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-suse-linux/13
+        Found candidate GCC installation: /usr/lib64/gcc/x86_64-suse-linux/13
+         "ld" -pie -z relro --hash-style=both --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1f554 /lib/../lib64/Scrt1.o /lib/../lib64/crti.o crtbeginS.o -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_1f554.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed crtendS.o /lib/../lib64/crtn.o
+        clang: error: unable to execute command: Executable "ld" doesn't exist!
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        gmake[1]: *** [CMakeFiles/cmTC_1f554.dir/build.make:100: cmTC_1f554] Error 1
+        gmake[1]: Leaving directory '/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-NOe24X'
+        gmake: *** [Makefile:127: cmTC_1f554/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/clang"
+    directories:
+      source: "/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-VDRjPt"
+      binary: "/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-VDRjPt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-VDRjPt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6603d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6603d.dir/build.make CMakeFiles/cmTC_6603d.dir/build
+        gmake[1]: Entering directory '/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-VDRjPt'
+        Building C object CMakeFiles/cmTC_6603d.dir/testCCompiler.c.o
+        /usr/bin/clang    -MD -MT CMakeFiles/cmTC_6603d.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_6603d.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_6603d.dir/testCCompiler.c.o -c /home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-VDRjPt/testCCompiler.c
+        Linking C executable cmTC_6603d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6603d.dir/link.txt --verbose=1
+        /usr/bin/clang CMakeFiles/cmTC_6603d.dir/testCCompiler.c.o -o cmTC_6603d 
+        clang: error: unable to execute command: Executable "ld" doesn't exist!
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        gmake[1]: *** [CMakeFiles/cmTC_6603d.dir/build.make:100: cmTC_6603d] Error 1
+        gmake[1]: Leaving directory '/home/jacob/code/advent_of_code/CMakeFiles/CMakeScratch/TryCompile-VDRjPt'
+        gmake: *** [Makefile:127: cmTC_6603d/fast] Error 2
+        
+      exitCode: 2
+...
