@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include "main.h"
+
 
 bool isDigit(char c)
 {

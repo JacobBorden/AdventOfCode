@@ -3,7 +3,7 @@
 
 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o
  /home/jacob/code/advent_of_code/1/c++/tests/tests.cpp
- /home/jacob/code/advent_of_code/1/c++/src/main.cpp
+ /home/jacob/code/advent_of_code/1/c++/src/main.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h
@@ -140,7 +140,6 @@
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
  /usr/include/c++/13/bits/exception_ptr.h
- /usr/include/c++/13/bits/fstream.tcc
  /usr/include/c++/13/bits/functexcept.h
  /usr/include/c++/13/bits/functional_hash.h
  /usr/include/c++/13/bits/hash_bytes.h
@@ -237,7 +236,6 @@
  /usr/include/c++/13/ext/numeric_traits.h
  /usr/include/c++/13/ext/string_conversions.h
  /usr/include/c++/13/ext/type_traits.h
- /usr/include/c++/13/fstream
  /usr/include/c++/13/functional
  /usr/include/c++/13/initializer_list
  /usr/include/c++/13/iomanip
@@ -274,10 +272,8 @@
  /usr/include/c++/13/variant
  /usr/include/c++/13/vector
  /usr/include/c++/13/x86_64-suse-linux/bits/atomic_word.h
- /usr/include/c++/13/x86_64-suse-linux/bits/basic_file.h
  /usr/include/c++/13/x86_64-suse-linux/bits/c++allocator.h
  /usr/include/c++/13/x86_64-suse-linux/bits/c++config.h
- /usr/include/c++/13/x86_64-suse-linux/bits/c++io.h
  /usr/include/c++/13/x86_64-suse-linux/bits/c++locale.h
  /usr/include/c++/13/x86_64-suse-linux/bits/cpu_defines.h
  /usr/include/c++/13/x86_64-suse-linux/bits/ctype_base.h

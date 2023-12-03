@@ -243,8 +243,4 @@
   /usr/include/gtest/gtest-test-part.h \
   /usr/include/gtest/gtest-typed-test.h \
   /usr/include/gtest/gtest_pred_impl.h /usr/include/gtest/gtest_prod.h \
-  /home/jacob/code/advent_of_code/1/c++/src/main.cpp \
-  /usr/include/c++/13/fstream \
-  /usr/include/c++/13/x86_64-suse-linux/bits/basic_file.h \
-  /usr/include/c++/13/x86_64-suse-linux/bits/c++io.h \
-  /usr/include/c++/13/bits/fstream.tcc
+  /home/jacob/code/advent_of_code/1/c++/src/main.h

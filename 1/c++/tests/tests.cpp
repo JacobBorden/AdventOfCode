@@ -1,10 +1,10 @@
 #include <gtest/gtest.h>
-#include "main.cpp"
+#include "main.h"
 
-Test(MainTests, isdigit)
+TEST(MainTests, isdigit)
 {
-	ASSERT_EQ(isDigit('1', true);
-	ASSERT_EQ(isDigit('a', false);
+	ASSERT_EQ(isDigit('1'), true);
+	ASSERT_EQ(isDigit('a'), false);
 			
 }
 

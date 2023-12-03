@@ -1,4 +1,8 @@
-bin/
-CMakeFiles/
-lib/
-_deps/
+bin/*
+CMakeFiles/*
+lib/*
+_deps/*
+.cache/*
+Makefile
+CMakeCache.txt
+

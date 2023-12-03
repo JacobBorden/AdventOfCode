@@ -391,34 +391,40 @@ MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 SITE:STRING=Jacob-Laptop
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=/home/jacob/code/advent_of_code/1/c++/dependencies/googletest/googlemock
+gmock_BINARY_DIR:STATIC=/home/jacob/code/advent_of_code/_deps/googletest-build/googlemock
 
 //Value Computed by CMake
 gmock_IS_TOP_LEVEL:STATIC=OFF
 
+//Dependencies for the target
+gmock_LIB_DEPENDS:STATIC=general;gtest;
+
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=/home/jacob/code/advent_of_code/1/c++/dependencies/googletest/googlemock
+gmock_SOURCE_DIR:STATIC=/home/jacob/code/advent_of_code/_deps/googletest-src/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
 
+//Dependencies for the target
+gmock_main_LIB_DEPENDS:STATIC=general;gmock;
+
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=/home/jacob/code/advent_of_code/1/c++/dependencies/googletest
+googletest-distribution_BINARY_DIR:STATIC=/home/jacob/code/advent_of_code/_deps/googletest-build
 
 //Value Computed by CMake
 googletest-distribution_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=/home/jacob/code/advent_of_code/1/c++/dependencies/googletest
+googletest-distribution_SOURCE_DIR:STATIC=/home/jacob/code/advent_of_code/_deps/googletest-src
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/home/jacob/code/advent_of_code/1/c++/dependencies/googletest/googletest
+gtest_BINARY_DIR:STATIC=/home/jacob/code/advent_of_code/_deps/googletest-build/googletest
 
 //Value Computed by CMake
 gtest_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=/home/jacob/code/advent_of_code/1/c++/dependencies/googletest/googletest
+gtest_SOURCE_DIR:STATIC=/home/jacob/code/advent_of_code/_deps/googletest-src/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -435,6 +441,9 @@ gtest_force_shared_crt:BOOL=OFF
 
 //Build gtest with internal symbols hidden in shared libraries.
 gtest_hide_internal_symbols:BOOL=OFF
+
+//Dependencies for the target
+gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 
 ########################
@@ -640,6 +649,8 @@ CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Details about finding GTest
 FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/usr/lib64/libgtest.so][/usr/include][/usr/lib64/libgtest_main.so][v()]
+//Details about finding Python
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/bin/python3.11][cfound components: Interpreter ][v3.11.6()]
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.11][cfound components: Interpreter ][v3.11.6()]
 //Details about finding Threads
@@ -685,8 +696,19 @@ _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;6;64;32;;cpython-311-x86_64
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=c5ea8e56613f13ab5e55239a52af8d00
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
+//Compiler reason failure
+_Python_Compiler_REASON_FAILURE:INTERNAL=
+//Development reason failure
+_Python_Development_REASON_FAILURE:INTERNAL=
+//Path to a program.
+_Python_EXECUTABLE:INTERNAL=/usr/bin/python3.11
+//Python Properties
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;6;64;32;;cpython-311-x86_64-linux-gnu;abi3;/usr/lib64/python3.11;/usr/lib64/python3.11;/usr/lib/python3.11/site-packages;/usr/lib64/python3.11/site-packages
+_Python_INTERPRETER_SIGNATURE:INTERNAL=c5ea8e56613f13ab5e55239a52af8d00
+//NumPy reason failure
+_Python_NumPy_REASON_FAILURE:INTERNAL=
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=/home/jacob/code/advent_of_code/1/c++/dependencies/googletest/googletest/generated
+generated_dir:INTERNAL=/home/jacob/code/advent_of_code/_deps/googletest-build/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

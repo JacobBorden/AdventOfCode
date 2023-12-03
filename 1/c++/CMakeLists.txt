@@ -6,16 +6,20 @@ set(CMAKE_THREAD_PREFER_PTHREAD ON)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 
 find_package(Threads)
-find_package(GTest REQUIRED)
 include(FetchContent)
 
 FetchContent_Declare(
 	googletest
-	GIT_REOPOSITORY https://github.com/google/googletest.git
+	include(FetchContent)
+FetchContent_Declare(
+  googletest
+  # Specify the commit you depend on and update it regularly.
+  URL https://github.com/google/googletest/archive/5376968f6948923e2411081fd9372e71a59d8e77.zip
+)
 	SOURCE_DIR dependencies/googletest
 	)
 
-file(GLOB Main "src/main.cpp")
+file(GLOB Main "src/main.cpp" "src/main.h")
 
 enable_testing()
 add_subdirectory(tests)
