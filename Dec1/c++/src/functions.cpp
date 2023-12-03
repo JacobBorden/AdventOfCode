@@ -1,7 +1,5 @@
-#include <algorithm>
 #include <string>
 #include "functions.h"
-#include <vector>
 
 bool isDigit(char c)
 {
@@ -41,13 +39,14 @@ int findDigits(std::string s)
 		else {
 			for(int j = i; j <s.length(); j++){
 
-				str = s.substr(i, j-i+1);
+				str = s.substr(i, j);
 				int result = findDigitsFromString(str);
 				if(result != -1 )
 				{ 
 					if(firstDigit == -1)
 						firstDigit = result;
 					lastDigit = result;
+					break;
 				}
 			}
 		}
