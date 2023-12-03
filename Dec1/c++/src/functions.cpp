@@ -37,17 +37,19 @@ int findDigits(std::string s)
 		}
 
 		else {
-			str = s.substr(i, s.length()-i);
-			int result = findDigitsFromString(str);
-			if(result != -1 )
-			{
-				if(firstDigit == -1)
-					firstDigit = result;
-				lastDigit = result;
-				str.clear();
+			for(int j = i; j <s.length(); j++){
+
+				str = s.substr(i, j-i+1);
+				int result = findDigitsFromString(str);
+				if(result != -1 )
+				{
+					if(firstDigit == -1)
+						firstDigit = result;
+					lastDigit = result;
+				}
 			}
 		}
-		
+
 	}
 	int value = (firstDigit * 10) + lastDigit;
 	return value;
