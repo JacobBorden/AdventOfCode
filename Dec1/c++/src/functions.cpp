@@ -25,19 +25,19 @@ int findDigits(std::string s)
 	int firstDigit = -1;
 	int lastDigit = -1;
 	std::string str;
-	
-	for(char c:s)
-	{ 
-		if(isDigit(c))
+	int i=0;
+	for(int i=0; i< s.length(); i++)
+	{
+		if(isDigit(s[i]))
 		{
 			str.clear();
 			if(firstDigit == -1)
-				firstDigit = std::atoi(&c);
-			lastDigit = std::atoi(&c);
+				firstDigit = std::atoi(&s[i]);
+			lastDigit = std::atoi(&s[i]);
 		}
 
 		else {
-			str +=c;
+			str = s.substr(i, s.length()-i);
 			int result = findDigitsFromString(str);
 			if(result != -1 )
 			{
@@ -47,7 +47,7 @@ int findDigits(std::string s)
 				str.clear();
 			}
 		}
-	
+		
 	}
 	int value = (firstDigit * 10) + lastDigit;
 	return value;
