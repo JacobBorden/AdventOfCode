@@ -79,69 +79,15 @@ clean: 1/c++/clean
 
 # Recursive "all" directory target.
 1/c++/all: 1/c++/tests/all
-1/c++/all: 1/c++/dependencies/googletest/all
 .PHONY : 1/c++/all
 
 # Recursive "preinstall" directory target.
 1/c++/preinstall: 1/c++/tests/preinstall
-1/c++/preinstall: 1/c++/dependencies/googletest/preinstall
 .PHONY : 1/c++/preinstall
 
 # Recursive "clean" directory target.
 1/c++/clean: 1/c++/tests/clean
-1/c++/clean: 1/c++/dependencies/googletest/clean
 .PHONY : 1/c++/clean
-
-#=============================================================================
-# Directory level rules for directory 1/c++/dependencies/googletest
-
-# Recursive "all" directory target.
-1/c++/dependencies/googletest/all: 1/c++/dependencies/googletest/googlemock/all
-.PHONY : 1/c++/dependencies/googletest/all
-
-# Recursive "preinstall" directory target.
-1/c++/dependencies/googletest/preinstall: 1/c++/dependencies/googletest/googlemock/preinstall
-.PHONY : 1/c++/dependencies/googletest/preinstall
-
-# Recursive "clean" directory target.
-1/c++/dependencies/googletest/clean: 1/c++/dependencies/googletest/googlemock/clean
-.PHONY : 1/c++/dependencies/googletest/clean
-
-#=============================================================================
-# Directory level rules for directory 1/c++/dependencies/googletest/googlemock
-
-# Recursive "all" directory target.
-1/c++/dependencies/googletest/googlemock/all: 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/all
-1/c++/dependencies/googletest/googlemock/all: 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/all
-1/c++/dependencies/googletest/googlemock/all: 1/c++/dependencies/googletest/googletest/all
-.PHONY : 1/c++/dependencies/googletest/googlemock/all
-
-# Recursive "preinstall" directory target.
-1/c++/dependencies/googletest/googlemock/preinstall: 1/c++/dependencies/googletest/googletest/preinstall
-.PHONY : 1/c++/dependencies/googletest/googlemock/preinstall
-
-# Recursive "clean" directory target.
-1/c++/dependencies/googletest/googlemock/clean: 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/clean
-1/c++/dependencies/googletest/googlemock/clean: 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
-1/c++/dependencies/googletest/googlemock/clean: 1/c++/dependencies/googletest/googletest/clean
-.PHONY : 1/c++/dependencies/googletest/googlemock/clean
-
-#=============================================================================
-# Directory level rules for directory 1/c++/dependencies/googletest/googletest
-
-# Recursive "all" directory target.
-1/c++/dependencies/googletest/googletest/all: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/all
-1/c++/dependencies/googletest/googletest/all: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/all
-.PHONY : 1/c++/dependencies/googletest/googletest/all
-
-# Recursive "preinstall" directory target.
-1/c++/dependencies/googletest/googletest/preinstall:
-.PHONY : 1/c++/dependencies/googletest/googletest/preinstall
-
-# Recursive "clean" directory target.
-1/c++/dependencies/googletest/googletest/clean: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/clean
-1/c++/dependencies/googletest/googletest/clean: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/clean
-.PHONY : 1/c++/dependencies/googletest/googletest/clean
 
 #=============================================================================
 # Directory level rules for directory 1/c++/tests
@@ -190,10 +136,7 @@ clean: 1/c++/clean
 # Target rules for target 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir
 
 # All Build rule for target.
-1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/all: 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/all
-1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/all: 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/all
-1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/all: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/all
-1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/all: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/all
+1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/build.make 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/build.make 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jacob/code/advent_of_code/CMakeFiles --progress-num=1,2,3 "Built target adventcode1_tests.exe"
@@ -201,7 +144,7 @@ clean: 1/c++/clean
 
 # Build rule for subdir invocation for target.
 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 0
 .PHONY : 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/rule
@@ -942,111 +885,6 @@ ContinuousSubmit: 1/c++/tests/CMakeFiles/ContinuousSubmit.dir/rule
 1/c++/tests/CMakeFiles/ContinuousSubmit.dir/clean:
 	$(MAKE) $(MAKESILENT) -f 1/c++/tests/CMakeFiles/ContinuousSubmit.dir/build.make 1/c++/tests/CMakeFiles/ContinuousSubmit.dir/clean
 .PHONY : 1/c++/tests/CMakeFiles/ContinuousSubmit.dir/clean
-
-#=============================================================================
-# Target rules for target 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir
-
-# All Build rule for target.
-1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/all: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/build.make 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/depend
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/build.make 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jacob/code/advent_of_code/CMakeFiles --progress-num=4,5 "Built target gmock"
-.PHONY : 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/all
-
-# Build rule for subdir invocation for target.
-1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 0
-.PHONY : 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/rule
-
-# Convenience name for target.
-gmock: 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/rule
-.PHONY : gmock
-
-# clean rule for target.
-1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/build.make 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/clean
-.PHONY : 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/clean
-
-#=============================================================================
-# Target rules for target 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir
-
-# All Build rule for target.
-1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/all: 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock.dir/all
-1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/all: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jacob/code/advent_of_code/CMakeFiles --progress-num=6,7 "Built target gmock_main"
-.PHONY : 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/all
-
-# Build rule for subdir invocation for target.
-1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 0
-.PHONY : 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
-
-# Convenience name for target.
-gmock_main: 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
-.PHONY : gmock_main
-
-# clean rule for target.
-1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
-.PHONY : 1/c++/dependencies/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
-
-#=============================================================================
-# Target rules for target 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir
-
-# All Build rule for target.
-1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/all:
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/build.make 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/depend
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/build.make 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jacob/code/advent_of_code/CMakeFiles --progress-num=8,9 "Built target gtest"
-.PHONY : 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/all
-
-# Build rule for subdir invocation for target.
-1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 0
-.PHONY : 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/rule
-
-# Convenience name for target.
-gtest: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/rule
-.PHONY : gtest
-
-# clean rule for target.
-1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/build.make 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/clean
-.PHONY : 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/clean
-
-#=============================================================================
-# Target rules for target 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir
-
-# All Build rule for target.
-1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/all: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/build.make 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/depend
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/build.make 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jacob/code/advent_of_code/CMakeFiles --progress-num=10,11 "Built target gtest_main"
-.PHONY : 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/all
-
-# Build rule for subdir invocation for target.
-1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/code/advent_of_code/CMakeFiles 0
-.PHONY : 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/rule
-
-# Convenience name for target.
-gtest_main: 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/rule
-.PHONY : gtest_main
-
-# clean rule for target.
-1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/build.make 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/clean
-.PHONY : 1/c++/dependencies/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
