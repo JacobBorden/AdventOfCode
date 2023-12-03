@@ -16,7 +16,9 @@ int main()
 	std::string line;
 	
 	while(std::getline(file, line)){
-	sum += findDigits(line);
+	int value= findDigits(line);
+	std::cout<<std::endl<<value;
+	sum += value;
 	}
 	
 	file.close();

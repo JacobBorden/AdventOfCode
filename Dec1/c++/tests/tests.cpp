@@ -16,6 +16,7 @@ TEST(Dec1Tests, findDigits)
 	ASSERT_EQ(findDigits("treb7uchet"),77);
 	ASSERT_EQ(findDigits("two1nine"),29);
 	ASSERT_EQ(findDigits("oneight"),18);
+	ASSERT_EQ(findDigits("eightwothree"),83);
 }
 
 TEST(Dec1Tests, findDigitsFromString)

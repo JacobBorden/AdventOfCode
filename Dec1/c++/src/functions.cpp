@@ -1,6 +1,7 @@
+#include <algorithm>
 #include <string>
 #include "functions.h"
-
+#include <vector>
 
 bool isDigit(char c)
 {
@@ -22,6 +23,7 @@ int findDigitsFromString(std::string s)
 
 int findDigits(std::string s)
 {
+	
 	int firstDigit = -1;
 	int lastDigit = -1;
 	std::string str;
@@ -29,11 +31,11 @@ int findDigits(std::string s)
 	for(int i=0; i< s.length(); i++)
 	{
 		if(isDigit(s[i]))
-		{
+		{ 
 			str.clear();
 			if(firstDigit == -1)
-				firstDigit = std::atoi(&s[i]);
-			lastDigit = std::atoi(&s[i]);
+				firstDigit = s[i]- '0';
+			lastDigit = s[i] - '0';
 		}
 
 		else {
@@ -42,7 +44,7 @@ int findDigits(std::string s)
 				str = s.substr(i, j-i+1);
 				int result = findDigitsFromString(str);
 				if(result != -1 )
-				{
+				{ 
 					if(firstDigit == -1)
 						firstDigit = result;
 					lastDigit = result;
@@ -51,7 +53,10 @@ int findDigits(std::string s)
 		}
 
 	}
+	if(firstDigit != -1 && lastDigit != -1 ){
 	int value = (firstDigit * 10) + lastDigit;
 	return value;
+	}
+	return 0;
 }
 
