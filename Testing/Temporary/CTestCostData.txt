@@ -1,3 +1,0 @@
-MainTests.isdigit 1 0.00174616
-adventcode1_tests.exe 1 0.00116315
----
