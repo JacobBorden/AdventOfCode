@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jacob/code/advent_of_code/1/c++/src
+CXX_INCLUDES = -I/home/jacob/code/advent_of_code/1/c++/src -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock
 
 CXX_FLAGS = 
 

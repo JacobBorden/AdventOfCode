@@ -5,4 +5,4 @@ _deps/*
 .cache/*
 Makefile
 CMakeCache.txt
-
+cmake_install.cmake

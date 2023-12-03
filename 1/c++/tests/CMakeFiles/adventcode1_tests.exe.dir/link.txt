@@ -1,1 +1,1 @@
-/usr/bin/clang++ CMakeFiles/adventcode1_tests.exe.dir/tests_main.cpp.o CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o -o adventcode1_tests.exe  ../src/main.cpp -lgtest_main -lgmock_main 
+/usr/bin/clang++ CMakeFiles/adventcode1_tests.exe.dir/tests_main.cpp.o CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o -o adventcode1_tests.exe  ../src/main.cpp ../../../lib/libgtest_main.a ../../../lib/libgmock_main.a ../../../lib/libgmock.a ../../../lib/libgtest.a 
