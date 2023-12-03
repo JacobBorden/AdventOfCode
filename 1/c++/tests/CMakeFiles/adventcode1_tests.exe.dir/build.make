@@ -109,7 +109,6 @@ adventcode1_tests_exe_EXTERNAL_OBJECTS =
 1/c++/tests/adventcode1_tests.exe: 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o
 1/c++/tests/adventcode1_tests.exe: 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/build.make
 1/c++/tests/adventcode1_tests.exe: 1/c++/src/main.cpp
-1/c++/tests/adventcode1_tests.exe: 1/c++/src/main.h
 1/c++/tests/adventcode1_tests.exe: 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jacob/code/advent_of_code/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable adventcode1_tests.exe"
 	cd /home/jacob/code/advent_of_code/1/c++/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adventcode1_tests.exe.dir/link.txt --verbose=$(VERBOSE)

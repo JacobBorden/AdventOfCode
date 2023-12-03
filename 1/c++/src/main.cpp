@@ -31,7 +31,7 @@ int findDigits(std::string s)
 
 
 
-int main()
+int home()
 {
 	return 0; 
 }

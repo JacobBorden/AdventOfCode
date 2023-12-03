@@ -243,4 +243,43 @@
   /usr/include/gtest/gtest-test-part.h \
   /usr/include/gtest/gtest-typed-test.h \
   /usr/include/gtest/gtest_pred_impl.h /usr/include/gtest/gtest_prod.h \
+  /usr/include/gmock/gmock.h /usr/include/gmock/gmock-actions.h \
+  /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/gmock/internal/gmock-internal-utils.h \
+  /usr/include/gmock/internal/gmock-port.h \
+  /usr/include/gmock/internal/custom/gmock-port.h \
+  /usr/include/gmock/internal/gmock-pp.h \
+  /usr/include/gmock/gmock-cardinalities.h \
+  /usr/lib64/clang/17/include/limits.h /usr/include/limits.h \
+  /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+  /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/xopen_lim.h /usr/include/bits/uio_lim.h \
+  /usr/include/gmock/gmock-function-mocker.h \
+  /usr/include/gmock/gmock-spec-builders.h \
+  /usr/include/gmock/gmock-matchers.h /usr/include/c++/13/cmath \
+  /usr/include/math.h /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h /usr/include/c++/13/bits/specfun.h \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/gmock/internal/custom/gmock-matchers.h \
+  /usr/include/gmock/gmock-more-actions.h \
+  /usr/include/gmock/internal/custom/gmock-generated-actions.h \
+  /usr/include/gmock/gmock-more-matchers.h \
+  /usr/include/gmock/gmock-nice-strict.h \
   /home/jacob/code/advent_of_code/1/c++/src/main.h
