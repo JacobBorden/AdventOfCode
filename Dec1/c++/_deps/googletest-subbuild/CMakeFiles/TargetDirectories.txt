@@ -1,3 +1,0 @@
-/home/jacob/code/advent_of_code/Dec1/c++/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/home/jacob/code/advent_of_code/Dec1/c++/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/home/jacob/code/advent_of_code/Dec1/c++/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
