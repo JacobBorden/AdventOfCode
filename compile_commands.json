@@ -1,5 +1,17 @@
 [
 {
+  "directory": "/home/jacob/code/advent_of_code/Dec1/c++",
+  "command": "/usr/bin/clang++    -o CMakeFiles/Dec1.exe.dir/src/functions.cpp.o -c /home/jacob/code/advent_of_code/Dec1/c++/src/functions.cpp",
+  "file": "/home/jacob/code/advent_of_code/Dec1/c++/src/functions.cpp",
+  "output": "Dec1/c++/CMakeFiles/Dec1.exe.dir/src/functions.cpp.o"
+},
+{
+  "directory": "/home/jacob/code/advent_of_code/Dec1/c++",
+  "command": "/usr/bin/clang++    -o CMakeFiles/Dec1.exe.dir/src/main.cpp.o -c /home/jacob/code/advent_of_code/Dec1/c++/src/main.cpp",
+  "file": "/home/jacob/code/advent_of_code/Dec1/c++/src/main.cpp",
+  "output": "Dec1/c++/CMakeFiles/Dec1.exe.dir/src/main.cpp.o"
+},
+{
   "directory": "/home/jacob/code/advent_of_code/_deps/googletest-build/googlemock",
   "command": "/usr/bin/clang++  -I/home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include -I/home/jacob/code/advent_of_code/_deps/googletest-src/googlemock -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest -Wall -Wshadow -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "file": "/home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/src/gmock-all.cc",
@@ -24,15 +36,15 @@
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
 },
 {
-  "directory": "/home/jacob/code/advent_of_code/1/c++/tests",
-  "command": "/usr/bin/clang++  -I/home/jacob/code/advent_of_code/1/c++/src -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock  -o CMakeFiles/adventcode1_tests.exe.dir/tests_main.cpp.o -c /home/jacob/code/advent_of_code/1/c++/tests/tests_main.cpp",
-  "file": "/home/jacob/code/advent_of_code/1/c++/tests/tests_main.cpp",
-  "output": "1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests_main.cpp.o"
+  "directory": "/home/jacob/code/advent_of_code/Dec1/c++/tests",
+  "command": "/usr/bin/clang++  -I/home/jacob/code/advent_of_code/Dec1/c++/src -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock  -o CMakeFiles/adventcode1_tests.exe.dir/tests_main.cpp.o -c /home/jacob/code/advent_of_code/Dec1/c++/tests/tests_main.cpp",
+  "file": "/home/jacob/code/advent_of_code/Dec1/c++/tests/tests_main.cpp",
+  "output": "Dec1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests_main.cpp.o"
 },
 {
-  "directory": "/home/jacob/code/advent_of_code/1/c++/tests",
-  "command": "/usr/bin/clang++  -I/home/jacob/code/advent_of_code/1/c++/src -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock  -o CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o -c /home/jacob/code/advent_of_code/1/c++/tests/tests.cpp",
-  "file": "/home/jacob/code/advent_of_code/1/c++/tests/tests.cpp",
-  "output": "1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o"
+  "directory": "/home/jacob/code/advent_of_code/Dec1/c++/tests",
+  "command": "/usr/bin/clang++  -I/home/jacob/code/advent_of_code/Dec1/c++/src -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googletest -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include -isystem /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock  -o CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o -c /home/jacob/code/advent_of_code/Dec1/c++/tests/tests.cpp",
+  "file": "/home/jacob/code/advent_of_code/Dec1/c++/tests/tests.cpp",
+  "output": "Dec1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o"
 }
 ]

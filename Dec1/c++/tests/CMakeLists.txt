@@ -10,7 +10,7 @@ target_sources(adventcode1_tests.exe
 
 target_link_libraries(adventcode1_tests.exe
 	PRIVATE
-	${Main}
+	${Functions}
 	gtest_main
 	gmock_main
 )
@@ -23,4 +23,3 @@ target_include_directories(adventcode1_tests.exe
 include(CTest)
 include(GoogleTest)
 gtest_discover_tests(adventcode1_tests.exe)
-add_test(NAME adventcode1_tests.exe COMMAND adventcode1_tests.exe)

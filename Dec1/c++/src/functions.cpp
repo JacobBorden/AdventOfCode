@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "main.h"
+#include "functions.h"
 
 
 bool isDigit(char c)
@@ -28,10 +28,3 @@ int findDigits(std::string s)
 	return value;
 }
 
-
-
-
-int home()
-{
-	return 0; 
-}

@@ -17,7 +17,17 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-file(GLOB Main "src/main.cpp")
+file(GLOB Functions
+	src/functions.cpp
+	)
+
+add_executable(Dec1.exe)
+
+target_sources(Dec1.exe
+	PRIVATE
+	${Functions}
+	src/main.cpp
+	)
 
 enable_testing()
 add_subdirectory(tests)
