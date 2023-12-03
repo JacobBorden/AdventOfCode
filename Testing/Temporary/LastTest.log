@@ -1,0 +1,54 @@
+Start testing: Dec 03 01:46 AST
+----------------------------------------------------------
+1/2 Testing: MainTests.isdigit
+1/2 Test: MainTests.isdigit
+Command: "/home/jacob/code/advent_of_code/1/c++/tests/adventcode1_tests.exe" "--gtest_filter=MainTests.isdigit" "--gtest_also_run_disabled_tests"
+Directory: /home/jacob/code/advent_of_code/1/c++/tests
+"MainTests.isdigit" start time: Dec 03 01:46 AST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MainTests.isdigit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MainTests
+[ RUN      ] MainTests.isdigit
+[       OK ] MainTests.isdigit (0 ms)
+[----------] 1 test from MainTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MainTests.isdigit" end time: Dec 03 01:46 AST
+"MainTests.isdigit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: adventcode1_tests.exe
+2/2 Test: adventcode1_tests.exe
+Command: "/home/jacob/code/advent_of_code/1/c++/tests/adventcode1_tests.exe"
+Directory: /home/jacob/code/advent_of_code/1/c++/tests
+"adventcode1_tests.exe" start time: Dec 03 01:46 AST
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MainTests
+[ RUN      ] MainTests.isdigit
+[       OK ] MainTests.isdigit (0 ms)
+[----------] 1 test from MainTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"adventcode1_tests.exe" end time: Dec 03 01:46 AST
+"adventcode1_tests.exe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 03 01:46 AST

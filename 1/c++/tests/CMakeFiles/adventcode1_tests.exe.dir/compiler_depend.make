@@ -3,6 +3,42 @@
 
 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o: 1/c++/tests/tests.cpp \
   1/c++/src/main.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-actions.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-matchers.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-message.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+  _deps/googletest-src/googletest/include/gtest/gtest.h \
+  _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+  _deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+  _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+  _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -319,44 +355,8 @@
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gmock/gmock-actions.h \
-  /usr/include/gmock/gmock-cardinalities.h \
-  /usr/include/gmock/gmock-function-mocker.h \
-  /usr/include/gmock/gmock-matchers.h \
-  /usr/include/gmock/gmock-more-actions.h \
-  /usr/include/gmock/gmock-more-matchers.h \
-  /usr/include/gmock/gmock-nice-strict.h \
-  /usr/include/gmock/gmock-spec-builders.h \
-  /usr/include/gmock/gmock.h \
-  /usr/include/gmock/internal/custom/gmock-generated-actions.h \
-  /usr/include/gmock/internal/custom/gmock-matchers.h \
-  /usr/include/gmock/internal/custom/gmock-port.h \
-  /usr/include/gmock/internal/gmock-internal-utils.h \
-  /usr/include/gmock/internal/gmock-port.h \
-  /usr/include/gmock/internal/gmock-pp.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
-  /usr/include/gtest/gtest-assertion-result.h \
-  /usr/include/gtest/gtest-death-test.h \
-  /usr/include/gtest/gtest-matchers.h \
-  /usr/include/gtest/gtest-message.h \
-  /usr/include/gtest/gtest-param-test.h \
-  /usr/include/gtest/gtest-printers.h \
-  /usr/include/gtest/gtest-test-part.h \
-  /usr/include/gtest/gtest-typed-test.h \
-  /usr/include/gtest/gtest.h \
-  /usr/include/gtest/gtest_pred_impl.h \
-  /usr/include/gtest/gtest_prod.h \
-  /usr/include/gtest/internal/custom/gtest-port.h \
-  /usr/include/gtest/internal/custom/gtest-printers.h \
-  /usr/include/gtest/internal/gtest-death-test-internal.h \
-  /usr/include/gtest/internal/gtest-filepath.h \
-  /usr/include/gtest/internal/gtest-internal.h \
-  /usr/include/gtest/internal/gtest-param-util.h \
-  /usr/include/gtest/internal/gtest-port-arch.h \
-  /usr/include/gtest/internal/gtest-port.h \
-  /usr/include/gtest/internal/gtest-string.h \
-  /usr/include/gtest/internal/gtest-type-util.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -398,6 +398,42 @@
   /usr/lib64/clang/17/include/stdint.h
 
 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests_main.cpp.o: 1/c++/tests/tests_main.cpp \
+  _deps/googletest-src/googlemock/include/gmock/gmock-actions.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-matchers.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h \
+  _deps/googletest-src/googlemock/include/gmock/gmock.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h \
+  _deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-message.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
+  _deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+  _deps/googletest-src/googletest/include/gtest/gtest.h \
+  _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+  _deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+  _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+  _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+  _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -714,44 +750,8 @@
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/gmock/gmock-actions.h \
-  /usr/include/gmock/gmock-cardinalities.h \
-  /usr/include/gmock/gmock-function-mocker.h \
-  /usr/include/gmock/gmock-matchers.h \
-  /usr/include/gmock/gmock-more-actions.h \
-  /usr/include/gmock/gmock-more-matchers.h \
-  /usr/include/gmock/gmock-nice-strict.h \
-  /usr/include/gmock/gmock-spec-builders.h \
-  /usr/include/gmock/gmock.h \
-  /usr/include/gmock/internal/custom/gmock-generated-actions.h \
-  /usr/include/gmock/internal/custom/gmock-matchers.h \
-  /usr/include/gmock/internal/custom/gmock-port.h \
-  /usr/include/gmock/internal/gmock-internal-utils.h \
-  /usr/include/gmock/internal/gmock-port.h \
-  /usr/include/gmock/internal/gmock-pp.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
-  /usr/include/gtest/gtest-assertion-result.h \
-  /usr/include/gtest/gtest-death-test.h \
-  /usr/include/gtest/gtest-matchers.h \
-  /usr/include/gtest/gtest-message.h \
-  /usr/include/gtest/gtest-param-test.h \
-  /usr/include/gtest/gtest-printers.h \
-  /usr/include/gtest/gtest-test-part.h \
-  /usr/include/gtest/gtest-typed-test.h \
-  /usr/include/gtest/gtest.h \
-  /usr/include/gtest/gtest_pred_impl.h \
-  /usr/include/gtest/gtest_prod.h \
-  /usr/include/gtest/internal/custom/gtest-port.h \
-  /usr/include/gtest/internal/custom/gtest-printers.h \
-  /usr/include/gtest/internal/gtest-death-test-internal.h \
-  /usr/include/gtest/internal/gtest-filepath.h \
-  /usr/include/gtest/internal/gtest-internal.h \
-  /usr/include/gtest/internal/gtest-param-util.h \
-  /usr/include/gtest/internal/gtest-port-arch.h \
-  /usr/include/gtest/internal/gtest-port.h \
-  /usr/include/gtest/internal/gtest-string.h \
-  /usr/include/gtest/internal/gtest-type-util.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
@@ -792,8 +792,6 @@
   /usr/lib64/clang/17/include/stddef.h \
   /usr/lib64/clang/17/include/stdint.h
 
-
-/usr/lib64/clang/17/include/stdarg.h:
 
 /usr/lib64/clang/17/include/sanitizer/tsan_interface.h:
 
@@ -837,49 +835,7 @@
 
 /usr/include/linux/close_range.h:
 
-/usr/include/gtest/internal/gtest-type-util.h:
-
-/usr/include/gtest/internal/gtest-string.h:
-
-/usr/include/gtest/internal/gtest-port.h:
-
-/usr/include/gtest/internal/gtest-port-arch.h:
-
-/usr/include/gtest/internal/gtest-param-util.h:
-
-/usr/include/gtest/internal/gtest-filepath.h:
-
-/usr/include/gtest/internal/custom/gtest-printers.h:
-
-/usr/include/gtest/internal/custom/gtest-port.h:
-
-/usr/include/gtest/gtest_prod.h:
-
-/usr/include/gtest/gtest_pred_impl.h:
-
-/usr/include/gtest/gtest.h:
-
-/usr/include/gtest/internal/gtest-internal.h:
-
-/usr/include/gtest/gtest-test-part.h:
-
-/usr/include/gtest/gtest-printers.h:
-
-/usr/include/gtest/gtest-param-test.h:
-
-/usr/include/gtest/gtest-message.h:
-
-/usr/include/gtest/gtest-assertion-result.h:
-
 /usr/include/gnu/stubs.h:
-
-/usr/include/gmock/internal/gmock-pp.h:
-
-/usr/include/gmock/internal/gmock-port.h:
-
-/usr/include/gmock/internal/custom/gmock-generated-actions.h:
-
-/usr/include/gmock/gmock-cardinalities.h:
 
 /usr/include/features-time64.h:
 
@@ -893,15 +849,11 @@
 
 /usr/include/c++/13/x86_64-suse-linux/bits/gthr.h:
 
-/usr/include/gtest/internal/gtest-death-test-internal.h:
-
 /usr/include/c++/13/x86_64-suse-linux/bits/error_constants.h:
 
 /usr/include/c++/13/x86_64-suse-linux/bits/ctype_inline.h:
 
 /usr/include/c++/13/x86_64-suse-linux/bits/cpu_defines.h:
-
-/usr/include/gmock/gmock-more-matchers.h:
 
 /usr/include/c++/13/x86_64-suse-linux/bits/atomic_word.h:
 
@@ -912,8 +864,6 @@
 /usr/include/c++/13/type_traits:
 
 /usr/include/c++/13/tr1/special_function_util.h:
-
-/usr/include/gmock/internal/custom/gmock-matchers.h:
 
 /usr/include/c++/13/x86_64-suse-linux/bits/c++locale.h:
 
@@ -967,83 +917,87 @@
 
 /usr/include/c++/13/limits:
 
-/usr/include/c++/13/any:
+/usr/include/c++/13/iosfwd:
 
-/usr/include/bits/types/siginfo_t.h:
+/usr/include/strings.h:
 
-/usr/include/c++/13/bits/streambuf_iterator.h:
+/usr/include/signal.h:
 
-/usr/include/bits/wctype-wchar.h:
+/usr/include/c++/13/iomanip:
 
-/usr/include/bits/timesize.h:
+/usr/include/limits.h:
 
-/usr/include/c++/13/bits/shared_ptr.h:
+/usr/include/c++/13/tr1/bessel_function.tcc:
 
-/usr/include/bits/unistd_ext.h:
+/usr/include/c++/13/initializer_list:
 
-/usr/include/bits/types/wint_t.h:
+/usr/include/c++/13/functional:
 
-/usr/include/bits/sigcontext.h:
+/usr/include/c++/13/ext/type_traits.h:
 
-/usr/include/c++/13/bits/sstream.tcc:
+/usr/include/c++/13/ext/string_conversions.h:
 
-/usr/include/c++/13/cctype:
+/usr/include/c++/13/ext/concurrence.h:
 
 /usr/include/c++/13/ext/atomicity.h:
 
-/usr/include/c++/13/cerrno:
+/usr/include/c++/13/ext/alloc_traits.h:
 
-/usr/include/bits/waitflags.h:
+/usr/include/c++/13/ext/aligned_buffer.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/linux/errno.h:
 
-/usr/include/bits/types/sigset_t.h:
+/usr/include/c++/13/debug/debug.h:
 
-/usr/include/c++/13/bits/move.h:
+/usr/include/c++/13/debug/assertions.h:
 
-/usr/include/bits/xopen_lim.h:
+/usr/include/c++/13/tr1/poly_laguerre.tcc:
 
-/usr/include/gmock/gmock-function-mocker.h:
+/usr/include/c++/13/cxxabi.h:
+
+/usr/include/c++/13/ctime:
+
+/usr/include/c++/13/cstdlib:
+
+/usr/include/c++/13/cstdint:
+
+/usr/include/c++/13/condition_variable:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/compare:
 
 /usr/include/c++/13/cmath:
 
-/usr/include/bits/types/sigevent_t.h:
+/usr/include/c++/13/clocale:
 
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+/usr/include/c++/13/cctype:
 
-/usr/include/c++/13/bits/quoted_string.h:
+/usr/include/c++/13/optional:
+
+/usr/include/c++/13/bits/vector.tcc:
 
 /usr/include/c++/13/bits/unordered_map.h:
 
-/usr/include/bits/types/__fpos64_t.h:
+/usr/include/c++/13/bits/quoted_string.h:
 
-/usr/include/c++/13/bits/functexcept.h:
+/usr/include/c++/13/cstddef:
+
+/usr/include/bits/thread-shared-types.h:
 
 /usr/include/bits/struct_stat.h:
 
-/usr/include/gtest/gtest-matchers.h:
-
 /usr/include/bits/types/idtype_t.h:
+
+_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/bits/struct_mutex.h:
 
-/usr/include/features.h:
-
-/usr/include/bits/sched.h:
-
-/usr/include/bits/types/__FILE.h:
-
 /usr/include/bits/stdlib-float.h:
 
-/usr/include/bits/time64.h:
-
 /usr/include/c++/13/bits/unique_lock.h:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/bits/stdio_lim.h:
 
@@ -1053,47 +1007,95 @@
 
 /usr/include/bits/types/error_t.h:
 
+_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h:
+
 /usr/include/bits/sigstksz.h:
 
 /usr/include/c++/13/bits/charconv.h:
 
 /usr/include/c++/13/bits/stl_pair.h:
 
-/usr/include/c++/13/cstdio:
+/usr/include/c++/13/pstl/glue_memory_defs.h:
 
-/usr/include/bits/floatn-common.h:
+/usr/include/c++/13/exception:
 
-/usr/include/bits/stdint-intn.h:
+/usr/include/bits/signum-arch.h:
 
-/usr/include/bits/types/clockid_t.h:
+/usr/include/bits/sigevent-consts.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/bits/types/stack_t.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/types/siginfo_t.h:
+
+/usr/include/c++/13/any:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/c++/13/bits/hashtable.h:
 
 /usr/include/bits/posix_opt.h:
 
-/usr/include/c++/13/algorithm:
+/usr/include/c++/13/bits/utility.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/bits/mathcalls-narrow.h:
 
 /usr/include/bits/locale.h:
 
-/usr/include/c++/13/optional:
-
-/usr/include/c++/13/bits/vector.tcc:
-
-/usr/include/libintl.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/bits/types/sigval_t.h:
-
-/usr/include/c++/13/atomic:
-
-/usr/include/bits/types.h:
-
-/usr/include/bits/getopt_core.h:
+/usr/include/bits/siginfo-consts-arch.h:
 
 /usr/include/bits/sigstack.h:
 
-/usr/include/bits/siginfo-consts-arch.h:
+/usr/include/bits/getopt_core.h:
 
-/usr/include/c++/13/bits/stl_relops.h:
+/usr/include/bits/local_lim.h:
+
+/usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/13/atomic:
+
+/usr/include/bits/siginfo-consts.h:
+
+/usr/include/c++/13/string_view:
+
+/usr/include/c++/13/map:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/getopt_posix.h:
+
+/usr/lib64/clang/17/include/stdint.h:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/usr/include/c++/13/bits/stl_multiset.h:
+
+/usr/include/bits/types.h:
 
 /usr/lib64/clang/17/include/stddef.h:
 
@@ -1101,33 +1103,97 @@
 
 /usr/include/bits/siginfo-arch.h:
 
-/usr/include/c++/13/cwctype:
+/usr/include/wctype.h:
 
-/usr/include/bits/uintn-identity.h:
+/usr/include/sched.h:
 
-/usr/include/gmock/gmock-actions.h:
+/usr/include/bits/fp-fast.h:
 
-/usr/include/bits/cpu-set.h:
+/usr/include/bits/floatn-common.h:
 
-/usr/include/c++/13/bits/stl_vector.h:
+/usr/include/wchar.h:
 
-/usr/include/bits/byteswap.h:
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/c++/13/cstdio:
+
+_deps/googletest-src/googletest/include/gtest/gtest-printers.h:
+
+_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
+
+/usr/include/c++/13/cwchar:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+_deps/googletest-src/googletest/include/gtest/gtest-matchers.h:
+
+/usr/include/alloca.h:
+
+_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h:
+
+/usr/lib64/clang/17/include/stdarg.h:
+
+_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h:
+
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
+
+/usr/include/bits/types/__sigset_t.h:
 
 /usr/include/c++/13/backward/auto_ptr.h:
 
-/usr/include/bits/types/__sigset_t.h:
+/usr/include/asm-generic/posix_types.h:
+
+_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/c++/13/bits/sstream.tcc:
+
+_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h:
+
+/usr/include/c++/13/tuple:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+1/c++/tests/tests.cpp:
+
+_deps/googletest-src/googlemock/include/gmock/gmock-actions.h:
+
+_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h:
+
+_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/sys/single_threaded.h:
+
+/usr/include/c++/13/backward/binders.h:
+
+_deps/googletest-src/googletest/include/gtest/gtest-test-part.h:
+
+/usr/include/c++/13/typeinfo:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/asm-generic/errno.h:
+
+_deps/googletest-src/googletest/include/gtest/gtest_prod.h:
 
 /usr/include/assert.h:
 
 /usr/include/bits/stat.h:
-
-/usr/include/bits/confname.h:
-
-/usr/include/c++/13/pstl/glue_memory_defs.h:
-
-/usr/include/c++/13/exception:
-
-/usr/include/bits/signum-arch.h:
 
 1/c++/src/main.h:
 
@@ -1137,11 +1203,63 @@
 
 /usr/include/c++/13/bits/functional_hash.h:
 
-/usr/include/bits/environments.h:
+_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h:
 
-/usr/include/bits/types/struct_FILE.h:
+/usr/include/bits/byteswap.h:
 
-/usr/include/bits/ss_flags.h:
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/ios:
+
+_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
+
+/usr/include/bits/floatn.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h:
+
+_deps/googletest-src/googlemock/include/gmock/gmock.h:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h:
+
+/usr/include/bits/time64.h:
+
+_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
+
+/usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/c++/13/iostream:
+
+_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
 
 /usr/include/asm/types.h:
 
@@ -1149,169 +1267,29 @@
 
 /usr/include/c++/13/bits/string_view.tcc:
 
-/usr/include/alloca.h:
+_deps/googletest-src/googletest/include/gtest/gtest-param-test.h:
 
-/usr/include/c++/13/typeinfo:
+/usr/include/bits/types/__locale_t.h:
 
-/usr/include/bits/fp-logb.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/c++/13/condition_variable:
-
-/usr/include/c++/13/iosfwd:
-
-/usr/include/bits/posix2_lim.h:
-
-/usr/include/gtest/gtest-typed-test.h:
-
-/usr/include/bits/sigevent-consts.h:
-
-/usr/include/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/c++/13/bits/utility.h:
-
-/usr/include/c++/13/array:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/gmock/gmock-more-actions.h:
-
-/usr/include/asm-generic/bitsperlong.h:
+/usr/include/c++/13/bits/node_handle.h:
 
 /usr/include/asm-generic/types.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/include/asm-generic/bitsperlong.h:
 
-/usr/include/bits/types/__sigval_t.h:
+/usr/include/c++/13/bits/refwrap.h:
 
-/usr/include/bits/endian.h:
+_deps/googletest-src/googletest/include/gtest/gtest.h:
 
-/usr/include/c++/13/bits/stl_tempbuf.h:
+/usr/include/c++/13/bits/stl_relops.h:
 
-/usr/include/asm-generic/posix_types.h:
+_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h:
 
 /usr/include/bits/math-vector.h:
 
 /usr/include/bits/uio_lim.h:
 
-/usr/include/gmock/internal/custom/gmock-port.h:
-
-/usr/include/c++/13/bits/stl_map.h:
-
-/usr/include/bits/types/struct_statx.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/gmock/gmock-nice-strict.h:
-
 /usr/include/bits/statx.h:
-
-/usr/include/asm/posix_types_64.h:
-
-/usr/include/bits/time.h:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/errno.h:
-
-/usr/include/bits/getopt_posix.h:
-
-/usr/lib64/clang/17/include/stdint.h:
-
-/usr/include/gmock/gmock.h:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/usr/include/c++/13/bits/stl_multiset.h:
-
-/usr/include/bits/types/stack_t.h:
-
-/usr/include/c++/13/bits/uses_allocator.h:
-
-/usr/include/strings.h:
-
-/usr/include/signal.h:
-
-/usr/include/c++/13/iomanip:
-
-/usr/include/bits/sigaction.h:
-
-/usr/include/bits/iscanonical.h:
-
-1/c++/tests/tests.cpp:
-
-1/c++/tests/tests_main.cpp:
-
-/usr/include/c++/13/utility:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/include/c++/13/bits/stl_heap.h:
-
-/usr/include/bits/mathcalls-helper-functions.h:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/13/stdexcept:
-
-/usr/include/bits/mathcalls-narrow.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
-
-/usr/include/bits/fp-fast.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/usr/include/bits/posix1_lim.h:
-
-/usr/include/c++/13/bits/hashtable.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/c++/13/bits/refwrap.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/sys/single_threaded.h:
-
-/usr/include/c++/13/backward/binders.h:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/bits/setjmp.h:
-
-/usr/include/c++/13/functional:
 
 /usr/include/c++/13/x86_64-suse-linux/bits/ctype_base.h:
 
@@ -1319,19 +1297,115 @@
 
 /usr/include/asm/bitsperlong.h:
 
-/usr/include/gtest/gtest-death-test.h:
+/usr/include/bits/ss_flags.h:
 
-/usr/include/bits/local_lim.h:
+/usr/include/bits/environments.h:
 
-/usr/include/c++/13/string_view:
+/usr/include/bits/types/struct_FILE.h:
 
-/usr/include/c++/13/map:
+/usr/include/asm/posix_types_64.h:
 
-/usr/include/bits/libc-header-start.h:
+/usr/include/bits/stdint-intn.h:
 
-/usr/include/bits/siginfo-consts.h:
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
+/usr/include/gnu/stubs-64.h:
+
+_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h:
+
+/usr/include/bits/types/__sigval_t.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/libintl.h:
+
+/usr/include/bits/endianness.h:
+
+1/c++/tests/tests_main.cpp:
+
+/usr/include/c++/13/utility:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/bits/types/locale_t.h:
+
+_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h:
+
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+
+_deps/googletest-src/googletest/include/gtest/gtest-death-test.h:
+
+/usr/include/bits/types/sigevent_t.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/include/c++/13/bits/move.h:
+
+_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h:
+
+/usr/include/bits/types/sigval_t.h:
 
 /usr/include/bits/types/struct_sigstack.h:
+
+/usr/include/bits/types/struct_statx.h:
+
+/usr/include/c++/13/bits/stl_map.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/bits/select.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/c++/13/cwctype:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/c++/13/cerrno:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/wctype-wchar.h:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/c++/13/algorithm:
+
+/usr/include/c++/13/array:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
@@ -1344,8 +1418,6 @@
 /usr/include/c++/13/bit:
 
 /usr/include/c++/13/bits/allocated_ptr.h:
-
-/usr/include/c++/13/clocale:
 
 /usr/include/c++/13/unordered_map:
 
@@ -1360,10 +1432,6 @@
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
 /usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
 
 /usr/include/bits/signum-generic.h:
 
@@ -1383,9 +1451,11 @@
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
-/usr/include/bits/types/mbstate_t.h:
-
 /usr/include/bits/signal_ext.h:
+
+_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h:
+
+/usr/include/bits/types/mbstate_t.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
@@ -1403,17 +1473,11 @@
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
-/usr/include/gmock/gmock-matchers.h:
-
 /usr/include/c++/13/bits/exception.h:
 
 /usr/include/bits/long-double.h:
 
 /usr/include/c++/13/bits/exception_defines.h:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/bits/stl_multimap.h:
 
 /usr/include/bits/timex.h:
 
@@ -1435,12 +1499,6 @@
 
 /usr/include/c++/13/bits/locale_conv.h:
 
-/usr/include/c++/13/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/13/cxxabi.h:
-
-/usr/include/c++/13/bits/locale_facets.h:
-
 /usr/include/linux/stat.h:
 
 /usr/include/c++/13/bits/locale_facets.tcc:
@@ -1453,25 +1511,15 @@
 
 /usr/include/c++/13/bits/locale_facets_nonio.tcc:
 
-/usr/include/c++/13/bits/localefwd.h:
-
 /usr/include/c++/13/streambuf:
 
-/usr/include/bits/types/sig_atomic_t.h:
-
 /usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/sig_atomic_t.h:
 
 /usr/include/c++/13/bits/memory_resource.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/include/c++/13/tuple:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/c++/13/bits/node_handle.h:
 
 /usr/include/c++/13/bits/ostream.tcc:
 
@@ -1497,12 +1545,6 @@
 
 /usr/include/c++/13/bits/std_function.h:
 
-/usr/include/c++/13/cstdint:
-
-/usr/include/gmock/gmock-spec-builders.h:
-
-/usr/include/c++/13/cstdlib:
-
 /usr/include/c++/13/bits/std_mutex.h:
 
 /usr/include/bits/types/struct_statx_timestamp.h:
@@ -1512,12 +1554,6 @@
 /usr/include/bits/struct_rwlock.h:
 
 /usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/gmock/internal/gmock-internal-utils.h:
-
-/usr/include/bits/thread-shared-types.h:
-
-/usr/include/c++/13/cstddef:
 
 /usr/include/sys/stat.h:
 
@@ -1531,8 +1567,6 @@
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
-
 /usr/include/c++/13/bits/codecvt.h:
 
 /usr/include/c++/13/bits/stl_tree.h:
@@ -1543,44 +1577,10 @@
 
 /usr/include/c++/13/bits/stringfwd.h:
 
-/usr/include/bits/typesizes.h:
-
 /usr/include/c++/13/bits/locale_classes.tcc:
 
+_deps/googletest-src/googletest/include/gtest/gtest-message.h:
+
+/usr/include/bits/typesizes.h:
+
 /usr/include/c++/13/bits/uniform_int_dist.h:
-
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/compare:
-
-/usr/include/c++/13/ctime:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/c++/13/cwchar:
-
-/usr/include/c++/13/debug/assertions.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/13/debug/debug.h:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/c++/13/ext/concurrence.h:
-
-/usr/include/c++/13/ext/string_conversions.h:
-
-/usr/include/c++/13/ext/type_traits.h:
-
-/usr/include/limits.h:
-
-/usr/include/c++/13/tr1/bessel_function.tcc:
-
-/usr/include/c++/13/initializer_list:
-
-/usr/include/c++/13/ios:
-
-/usr/include/c++/13/iostream:

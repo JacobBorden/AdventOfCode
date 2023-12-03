@@ -21,4 +21,6 @@ target_include_directories(adventcode1_tests.exe
 )
 
 include(CTest)
+include(GoogleTest)
+gtest_discover_tests(adventcode1_tests.exe)
 add_test(NAME adventcode1_tests.exe COMMAND adventcode1_tests.exe)

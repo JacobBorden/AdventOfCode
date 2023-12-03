@@ -6,6 +6,7 @@ set(CMAKE_THREAD_PREFER_PTHREAD ON)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 
 find_package(Threads)
+include(CTest)
 include(FetchContent)
 
 FetchContent_Declare(

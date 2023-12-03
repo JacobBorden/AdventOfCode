@@ -4,6 +4,42 @@
 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests.cpp.o
  /home/jacob/code/advent_of_code/1/c++/tests/tests.cpp
  /home/jacob/code/advent_of_code/1/c++/src/main.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-message.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-printers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest_prod.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h
@@ -320,44 +356,8 @@
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gmock/gmock-actions.h
- /usr/include/gmock/gmock-cardinalities.h
- /usr/include/gmock/gmock-function-mocker.h
- /usr/include/gmock/gmock-matchers.h
- /usr/include/gmock/gmock-more-actions.h
- /usr/include/gmock/gmock-more-matchers.h
- /usr/include/gmock/gmock-nice-strict.h
- /usr/include/gmock/gmock-spec-builders.h
- /usr/include/gmock/gmock.h
- /usr/include/gmock/internal/custom/gmock-generated-actions.h
- /usr/include/gmock/internal/custom/gmock-matchers.h
- /usr/include/gmock/internal/custom/gmock-port.h
- /usr/include/gmock/internal/gmock-internal-utils.h
- /usr/include/gmock/internal/gmock-port.h
- /usr/include/gmock/internal/gmock-pp.h
  /usr/include/gnu/stubs-64.h
  /usr/include/gnu/stubs.h
- /usr/include/gtest/gtest-assertion-result.h
- /usr/include/gtest/gtest-death-test.h
- /usr/include/gtest/gtest-matchers.h
- /usr/include/gtest/gtest-message.h
- /usr/include/gtest/gtest-param-test.h
- /usr/include/gtest/gtest-printers.h
- /usr/include/gtest/gtest-test-part.h
- /usr/include/gtest/gtest-typed-test.h
- /usr/include/gtest/gtest.h
- /usr/include/gtest/gtest_pred_impl.h
- /usr/include/gtest/gtest_prod.h
- /usr/include/gtest/internal/custom/gtest-port.h
- /usr/include/gtest/internal/custom/gtest-printers.h
- /usr/include/gtest/internal/gtest-death-test-internal.h
- /usr/include/gtest/internal/gtest-filepath.h
- /usr/include/gtest/internal/gtest-internal.h
- /usr/include/gtest/internal/gtest-param-util.h
- /usr/include/gtest/internal/gtest-port-arch.h
- /usr/include/gtest/internal/gtest-port.h
- /usr/include/gtest/internal/gtest-string.h
- /usr/include/gtest/internal/gtest-type-util.h
  /usr/include/libintl.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h
@@ -400,6 +400,42 @@
 
 1/c++/tests/CMakeFiles/adventcode1_tests.exe.dir/tests_main.cpp.o
  /home/jacob/code/advent_of_code/1/c++/tests/tests_main.cpp
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/gmock.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-message.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-printers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/gtest_prod.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
+ /home/jacob/code/advent_of_code/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h
@@ -716,44 +752,8 @@
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/gmock/gmock-actions.h
- /usr/include/gmock/gmock-cardinalities.h
- /usr/include/gmock/gmock-function-mocker.h
- /usr/include/gmock/gmock-matchers.h
- /usr/include/gmock/gmock-more-actions.h
- /usr/include/gmock/gmock-more-matchers.h
- /usr/include/gmock/gmock-nice-strict.h
- /usr/include/gmock/gmock-spec-builders.h
- /usr/include/gmock/gmock.h
- /usr/include/gmock/internal/custom/gmock-generated-actions.h
- /usr/include/gmock/internal/custom/gmock-matchers.h
- /usr/include/gmock/internal/custom/gmock-port.h
- /usr/include/gmock/internal/gmock-internal-utils.h
- /usr/include/gmock/internal/gmock-port.h
- /usr/include/gmock/internal/gmock-pp.h
  /usr/include/gnu/stubs-64.h
  /usr/include/gnu/stubs.h
- /usr/include/gtest/gtest-assertion-result.h
- /usr/include/gtest/gtest-death-test.h
- /usr/include/gtest/gtest-matchers.h
- /usr/include/gtest/gtest-message.h
- /usr/include/gtest/gtest-param-test.h
- /usr/include/gtest/gtest-printers.h
- /usr/include/gtest/gtest-test-part.h
- /usr/include/gtest/gtest-typed-test.h
- /usr/include/gtest/gtest.h
- /usr/include/gtest/gtest_pred_impl.h
- /usr/include/gtest/gtest_prod.h
- /usr/include/gtest/internal/custom/gtest-port.h
- /usr/include/gtest/internal/custom/gtest-printers.h
- /usr/include/gtest/internal/gtest-death-test-internal.h
- /usr/include/gtest/internal/gtest-filepath.h
- /usr/include/gtest/internal/gtest-internal.h
- /usr/include/gtest/internal/gtest-param-util.h
- /usr/include/gtest/internal/gtest-port-arch.h
- /usr/include/gtest/internal/gtest-port.h
- /usr/include/gtest/internal/gtest-string.h
- /usr/include/gtest/internal/gtest-type-util.h
  /usr/include/libintl.h
  /usr/include/limits.h
  /usr/include/linux/close_range.h
