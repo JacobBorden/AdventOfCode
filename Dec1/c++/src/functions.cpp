@@ -33,7 +33,7 @@ int findDigits(std::string s)
 
 		else {
 			int j=0;
-			while(!isDigit(s[i+j]) && j <= 5 )
+			while(!isDigit(s[i+j]) && !(j >= 5) )
 				j++;
 			std::string str = s.substr(i,j);
 			int result = findDigitsFromString(str);
