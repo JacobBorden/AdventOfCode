@@ -22,22 +22,25 @@ int findDigitsFromString(std::string s)
 int findDigits(std::string s)
 {
 	std::vector<int> digits;
-	std::string str;
+
 	for(int i=0; i< s.length(); i++)
 	{
 		if(isDigit(s[i]))
 		{
-			str.clear();
+
 			digits.push_back(s[i]-'0');
 		}
 
 		else {
-			str += s[i];
+			int j=0;
+			while(!isDigit(s[i+j]) && j <= 5 )
+				j++;
+			std::string str = s.substr(i,j);
 			int result = findDigitsFromString(str);
 			if(result != -1 )
 			{
 				digits.push_back(result);
-				str.clear();
+
 			}
 		}
 	}
