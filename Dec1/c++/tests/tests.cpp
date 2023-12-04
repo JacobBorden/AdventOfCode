@@ -4,7 +4,7 @@
 
 TEST(Dec1Tests, isdigit)
 {
-	ASSERT_EQ(isDigit('1'), true);
+	ASSERT_EQ(isDigit('8'), true);
 	ASSERT_EQ(isDigit('a'), false);
 			
 }
@@ -17,6 +17,7 @@ TEST(Dec1Tests, findDigits)
 	ASSERT_EQ(findDigits("two1nine"),29);
 	ASSERT_EQ(findDigits("oneight"),18);
 	ASSERT_EQ(findDigits("eightwothree"),83);
+	ASSERT_EQ(findDigits("szfvfdkff8dvlmbdktsixmzpnxzmml2"),82);
 }
 
 TEST(Dec1Tests, findDigitsFromString)

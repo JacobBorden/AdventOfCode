@@ -1,11 +1,11 @@
 #include <string>
 #include "functions.h"
+#include <vector>
 
 bool isDigit(char c)
 {
-	if(c >= '0' && c <= '9')
-		return true;
-	return false;
+	return c >= '0' && c <= '9';
+
 }
 
 int findDigitsFromString(std::string s)
@@ -21,41 +21,33 @@ int findDigitsFromString(std::string s)
 
 int findDigits(std::string s)
 {
-	
-	int firstDigit = -1;
-	int lastDigit = -1;
+	std::vector<int> digits;
 	std::string str;
-	int i=0;
 	for(int i=0; i< s.length(); i++)
 	{
 		if(isDigit(s[i]))
-		{ 
+		{
 			str.clear();
-			if(firstDigit == -1)
-				firstDigit = s[i]- '0';
-			lastDigit = s[i] - '0';
+			digits.push_back(s[i]-'0');
 		}
 
 		else {
-			for(int j = i; j <s.length(); j++){
-
-				str = s.substr(i, j);
-				int result = findDigitsFromString(str);
-				if(result != -1 )
-				{ 
-					if(firstDigit == -1)
-						firstDigit = result;
-					lastDigit = result;
-					break;
-				}
+			str += s[i];
+			int result = findDigitsFromString(str);
+			if(result != -1 )
+			{
+				digits.push_back(result);
+				str.clear();
 			}
 		}
+	}
 
+
+	if(!digits.empty())
+	{
+		int value = digits[0] * 10 + digits[digits.size()-1];
+		return value;
 	}
-	if(firstDigit != -1 && lastDigit != -1 ){
-	int value = (firstDigit * 10) + lastDigit;
-	return value;
-	}
-	return 0;
+	return -1;
 }
 

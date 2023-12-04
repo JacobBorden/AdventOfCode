@@ -25,3 +25,13 @@ std::vector <int> parseRound(std::string)
 	std::vector<int>cubes(3);
 	return cubes;
 }
+
+int parseGame(std::string s)
+{
+	int gameNumber;
+	std::vector<std::string> rounds;
+
+	if(gameIsPossibile(rounds))
+	return gameNumber;
+	else return 0;
+}
