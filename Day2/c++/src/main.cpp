@@ -6,6 +6,7 @@
 int main()
 {
 	int sum =0;
+	int totalPower=0;
 	std::ifstream file("input.txt");
 
 	if(!file.is_open()){
@@ -17,13 +18,15 @@ int main()
 
 	while (std::getline(file, line)){
 		line = line.substr(0,line.length()-1);
-		int value = parseGame(line);
-		std::cout<<std::endl<<value;
-		sum += value;
+		Game game(line);
+		if(game.isPossible())
+			sum += game.gameNumber();
+		totalPower += game.getPower();
 	}
 
 	file.close();
-	std::cout<<std::endl<<sum<<std::endl;
+	std::cout<<"Total Sum of Possible Games:"<<std::endl<<sum<<std::endl;
+	std::cout<<"Total Power"<<std::endl<<totalPower<<std::endl;
 	return 0;
 }
 
