@@ -1,0 +1,7 @@
+CMakeFiles/*
+*.cmake
+*.exe
+Testing/*
+DartConfiguration.tcl
+input.txt
+Makefile

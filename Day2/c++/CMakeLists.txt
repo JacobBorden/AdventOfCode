@@ -20,8 +20,8 @@ file(GLOB Day2Functions
 	src/functions.cpp
 	)
 
-add_executable(Dec2.exe)
-target_sources(Dec2.exe
+add_executable(Day2.exe)
+target_sources(Day2.exe
 	PRIVATE
 	${Day2Functions}
 	src/main.cpp
