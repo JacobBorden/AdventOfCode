@@ -8,6 +8,7 @@ import (
 
 func main(){
 	sum := 0
+	power := 0
 	//open file
 	file, err := os.Open("input.txt")
 	if err !=nil {
@@ -26,11 +27,15 @@ func main(){
 		if game.isPossible{
 			sum += game.gameNumber
 		}
+		power += (game.redMax * game.greenMax * game.blueMax)
+		
+		
 	}
 
 	//output result
 
 		fmt.Println(sum)
+		fmt.Println(power)
 
 
 }

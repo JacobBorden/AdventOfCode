@@ -24,7 +24,7 @@ func parseGame(game string) *Game {
 	roundsStr := parts [1]
 	g.gameNumber = getGameNumber(gameStr)
 	rounds := strings.Split(roundsStr,"; ")
-	g.isPossible = gameIsPossible(rounds)
+	g.isPossible = gameIsPossible(rounds, g)
 	return g
 }
 
@@ -37,17 +37,17 @@ func getGameNumber(game string) int {
 	 return i
 }
 
-func gameIsPossible(rounds []string) bool{
+func gameIsPossible(rounds []string, game *Game) bool{
 	possible := true
 	for i := range rounds{
-		if !roundIsPossible(rounds[i]){
+		if !roundIsPossible(rounds[i], game){
 			possible = false
 		}
 	}
 	return possible
 }
 
-func roundIsPossible(round string) bool{
+func roundIsPossible(round string, game *Game) bool{
 	red := 0
 	green := 0
 	blue := 0
@@ -61,12 +61,21 @@ func roundIsPossible(round string) bool{
 		colorName := colorData[1]
 		if colorName == "red"{
 			red = value
+			if red > game.redMax{
+				game.redMax = red
+			}
 		}
 		if colorName == "green"{
 			green = value
+			if green > game.greenMax {
+				game.greenMax = green
+			}
 		}
 		if colorName == "blue"{
 			blue = value
+			if blue > game.blueMax{
+				game.blueMax = blue
+			}
 		}
 	}
 	return red <= 12 && green <= 13 && blue <= 14
