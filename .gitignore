@@ -10,3 +10,11 @@ Testing/*
 DartConfiguration.tcl
 CTestTestfile.cmake
 
+# macOS specific
+.DS_Store
+
+# Vim swap files
+*.swp
+
+# Build databases
+compile_commands.json
