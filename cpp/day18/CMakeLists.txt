@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(Day18 CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+add_executable(day18_solution main.cpp)
